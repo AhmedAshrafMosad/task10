@@ -1,0 +1,248 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: #f8f9fa;
+    
+
+}
+/* start navbar section */
+.navbar
+{
+    background-color:white;
+    height: 70px;
+    box-shadow: 7px 0px 8px #e2e3e4;
+    z-index: 300;
+}
+.navbar-brand
+{
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: cursive;
+    
+}
+.collapse
+{
+    margin-left: 500px;
+}
+.collapse a
+{
+    font-size: 20px;
+    font-family: cursive;
+
+}
+.collapse button
+{
+    font-size: 17px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-family: cursive;
+    
+}
+@media only screen and (max-width:768px)
+{
+    .collapse 
+    {
+        margin-left: 0;
+    }
+    .collapse a
+    {
+        margin-top: 10px;
+    }
+    .collapse button
+    {
+        margin-top: 10px;
+    }
+}
+/* start navbar section */
+
+/* start header section */
+.app
+{
+    margin-top: 80px;
+}
+.app .store
+{
+    margin-top: 150px;
+}
+.store h2
+{
+    font-size: 50px;
+    font-weight: 500;
+    color: #172ab5;
+}
+.store p
+{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+.store img
+{
+    width: 200px;
+    height: 60px;
+}
+/* end header section */
+
+/* start section tnw */
+.zero 
+{
+    background-color:#4a2fec;
+    height: 420px;
+}
+.tnw h3
+{
+    font-size: 37px;
+    color: white;
+    margin-top: 100px;
+
+}
+.tnw img
+{
+    margin-left: 230px;
+    margin-top: 30px;
+}
+/* end section tnw */
+
+/* start section devices */
+.main
+{
+    margin-top: 150px;
+}
+.main .fa-phone,.fa-heart,.fa-github,.fa-user
+{
+    margin-left: 60px;
+    margin-bottom: 20px;
+    
+}
+/* end section devices */
+
+/* start section design */
+.design
+{
+    margin-top: 70px;
+}
+.design h1
+{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.design p{
+    font-size: 20px;
+    font-weight: 100;
+}
+/* end section design */
+
+/* start section build */
+.build
+{
+    background-image: url( https://source.unsplash.com/5g41N3uRPf8/1500x800%22);
+    height: 500px;
+    position: relative;
+    color: white;
+    margin-top: 100px;
+
+
+}
+.build .stop
+{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+.stop h1
+{
+    font-size: 50px;
+    font-weight: 600;
+    width: 50%;
+    
+}
+.stop button
+{
+    margin-left: 60px;
+    color: white;
+    margin-top: 15px;
+}
+.end
+{
+    background-color:#7524e7;
+    height: 300px;
+    position: relative;
+    color: white;
+
+
+}
+.end .end1
+{
+    position: absolute;
+    top: 45%;
+    left: 40%;
+}
+.end1 h1
+{
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 10px;
+    
+}
+.end1 img
+{
+    width: 130px;
+    height: 40px;
+    margin-top: 20px;
+}
+.end3
+{
+    background-color:black;
+    height: 90px;
+}
+.end3 p {
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    color: #6d6f72;
+    margin-top: 30px;
+    
+}
+
+/* end section build */
+@media only screen and (max-width:576px)
+{
+   .store img
+   {
+        width: 150px;
+   }
+   .img2
+   {
+    width: 300px;
+   }
+   .design img
+   {
+    width: 300px;
+    height: 250px;
+    margin-top: 30px;
+   }
+   .stop h1
+   {
+     position: absolute;
+     
+     right: 90%;
+   }
+   .end1 h1
+   {
+    margin-right: 30px;
+    
+   }
+   
+   .end1
+   {
+     position: absolute;
+     top: 30% !important;
+     left: 4% !important;
+   }
+}    
